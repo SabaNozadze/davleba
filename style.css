@@ -1,0 +1,536 @@
+* {
+
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* div {
+    border: 1px solid red;
+} */
+
+.maincontainer {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/*
+.greenbackground{
+    background: var(--Green, #B9FF66);
+}
+.blackbackground{
+    background: var(--Dark, #191A23);
+}
+.graybackground{
+    background-color: #F3F3F3;
+}
+*/
+
+/*
+.mainbox {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+*/
+
+.menu {
+    list-style: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.menu_button {
+    padding: 20px 35px;
+    border-radius: 14px;
+    border: 1px solid var(--Dark, #191A23);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstpage_container {
+
+    display: flex;
+    gap: 90px;
+
+
+}
+
+.firstpage_button {
+    border-radius: 14px;
+    background: var(--Dark, #191A23);
+    padding: 20px 35px;
+    color: white;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 264px;
+
+}
+
+.firstpage_boxone {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.firstpage_boxone h2 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.firstpage_boxone p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.maincontainer_wrapperone {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.maincontainer_menu {
+    display: flex;
+    gap: 95px;
+
+}
+
+.ServiceInfo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ServiceInfo h2 {
+    background: var(--Green, #B9FF66);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ServiceInfo p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.boxwrapper_box {
+    display: flex;
+    border-radius: 45px;
+}
+
+.boxwrapper_firstpart span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* background: var(--Green, #B9FF66); */
+
+}
+
+/* .boxwrapper_firstpart{
+    display: flex;
+    
+    
+} */
+.boxwrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: columne;
+    gap: 40px;
+
+}
+
+.boxwrapper_firstpart {
+    display: flex;
+    padding: 50px;
+    border-radius: 45px;
+    border: 1px solid var(--Dark, #191A23);
+    background: var(--Grey, #F3F3F3);
+    box-shadow: 0px 5px 0px 0px #191A23;
+    gap: 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+}
+
+.learnmore {
+    display: flex;
+}
+
+.boxwrapper_firstpart h2 {
+    font-size: 15px;
+}
+
+.card-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.boxwrapper_box {
+    flex: 1;
+}
+
+.boxwrapper_firstpart {
+    flex: 1;
+}
+
+.firspart_content {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+}
+
+.greenbox {
+    background-color: #B9FF66;
+}
+
+.learnmore {
+    display: flex;
+    align-items: center;
+}
+
+.blackbox {
+    background-color: black;
+    border-radius: 45px;
+    background: var(--Dark, #191A23);
+}
+
+.whitetext {
+
+    color: white;
+}
+
+.whitebackground {
+    background-color: white;
+}
+
+.graybox_wrapper {
+    border-radius: 45px;
+    background: var(--Grey, #F3F3F3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.graybox_wrapper h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.graybox_wrapper p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.graybox_wrapper span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 14px;
+    background: var(--Dark, #191A23);
+    color: white;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.graybox_content_text {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 40px;
+
+
+
+}
+
+.graybox_wrapper_container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blackbox_content p {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.blackbox_content span {
+    color: var(--Green, #B9FF66);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.blackbox_content {
+
+
+    border-right: 1px solid white;
+    padding-right: 40px;
+    padding-left: 40px;
+
+
+
+}
+
+.borderradius {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.borderunset {
+    border-right: #191A23;
+}
+
+.greenbox_borderradius_content {
+    padding-left: 60px;
+    padding-right: 60px;
+
+
+}
+
+.greenbox_borderradius_header h1 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.greenbox_borderradius_header span {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.greenbox_borderradius_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-top: 41px;
+    padding-bottom: 30px;
+
+}
+
+.consultation {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.greenbox_borderradius {
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    background: var(--Green, #B9FF66);
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.greenbox_borderradius_text p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.greenbox_borderradius_text {
+    padding-top: 30px;
+    padding-bottom: 41px;
+}
+
+.graybox_borderradius_content {
+    display: flex;
+    align-items: center;
+}
+
+.graybox_borderradius {
+    border-radius: 45px;
+    border: 1px solid #191A23;
+
+    background: var(--Grey, #F3F3F3);
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.research {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.graybox_borderradius_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 60px;
+}
+
+.research h1 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.research span {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fiveboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Working {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.white_box_header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid black;
+}
+
+.johnsmith span {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.johnsmith p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.socialicon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.johnsmith {
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 28px;
+}
+
+.ceoandfounder {
+    display: flex;
+
+}
+
+.founter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.white_box_text {
+    padding-top: 28px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.white_box_content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.white_box {
+    border-radius: 45px;
+    border: 1px solid #191A23;
+
+    background: #FFF;
+
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.flexrow {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.blackbutton {
+    /*border-radius: 14px;
+    background: var(--Dark, #191A23);
+    padding: 20px 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 269px;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;*/
+    
+}
+.blackbutton_box{
+    display: flex;
+    justify-content: right;
+}
